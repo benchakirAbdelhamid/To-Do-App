@@ -1,0 +1,53 @@
+body{
+  margin: 0 20px;
+}
+.App{
+  border: 1px solid #3d3d3d;
+  margin: 50px 30px;
+  padding: 25px 15px;
+  max-width: 700px;
+  /* min-width: 90%; */
+  margin: 200px auto;
+}
+.to-do-container{
+display: flex;
+flex-direction: column;
+}
+.to-do-container ul li{
+  width: 170px;
+  /* border: 1px solid red; */
+  overflow-wrap: break-word;
+  list-style-type: '👍';
+  cursor: pointer;
+  margin: 10px 0;
+   /* bach mli tfot text hodod tarja3 star*/
+}
+.done{
+  text-decoration: line-through;
+  color: #601010;
+}
+.item{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-delete{
+  cursor: pointer;
+}
+
+.container-footer{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container-footer input{
+  padding: 8px;
+  outline: none;
+}
+.container-footer button{
+  padding: 8px;
+  border: none;
+  background-color: #60080838;
+}
